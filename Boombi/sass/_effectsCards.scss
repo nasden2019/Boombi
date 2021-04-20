@@ -1,0 +1,97 @@
+.effectsCards {
+
+    background: white;
+    padding: 100px 0;
+    margin-bottom: 40px!important;
+
+    hr {
+        border: 1px solid yellow;
+    }
+
+    .alturaCards {
+        max-height: 520px;
+    }
+
+    // con JS
+    .tarjetas, .tarjetas2, .tarjetas3 {
+        background: #1D0E23!important;
+        padding: 50px 0 0 28px;
+        height: 450px;
+
+        h5 {
+            font-weight: 600;
+            font-size: 1.7rem;
+            color: yellow;
+        }
+
+         h6 {
+            font-weight: 700;
+            font-size: 2.4rem;
+        }
+
+        p {
+            display: flex;
+            font-size: 1.3rem;
+        }
+
+        span {
+            color: yellow
+        }
+    }
+
+    .tarjetaTexto {
+          padding: 30px 0 30px 40px;
+          
+      h2 {
+          font-weight: 700;
+          font-size: 4.9rem;
+          text-align: center;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 1.3rem;
+        padding: 0 0 0 168px;
+        margin-top: 35px;
+      }
+
+      h6 {
+        padding: 0 0 0 165px;
+        margin-top: 30px;
+      }
+    }
+}
+
+
+
+   // ------------------ MOBILE------------------------- 
+
+   @media (max-width: 700px) {
+    .effectsCardsMobile {
+        background: white;
+        padding: 10px 15px;
+        margin-bottom: 40px!important;
+        
+        .effectTitle {
+          font-size: 1.8rem;
+          font-weight: 800;
+        }
+
+        
+        .tarjetasMobile {
+            background: $violet;
+            padding: 10px 40px;
+            margin: 0 12px 3px 12px!important;
+            // margin: 3px 10px 0 10px;
+
+            span {
+                color: yellow
+            }
+        }
+
+        hr {
+            border: 1px solid yellow;
+        }
+    }
+
+}

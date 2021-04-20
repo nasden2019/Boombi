@@ -1,0 +1,37 @@
+.second-section {
+ 
+   background: $violet;
+
+h2 {
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+
+    h6 {
+        color: yellow;
+    }
+}
+
+@media(min-width: 700px) {
+    .second-section {
+        padding: 110px 0;
+
+        .bike {
+            max-width: 93%;
+        }
+    
+        h2 {
+            font-weight: 600;
+            font-size: 2.9rem;
+        }
+
+        h5 {
+           font-size: 1.5rem; 
+        }
+
+        h6 {
+            font-size: 1.5rem;
+        }
+    }
+
+}

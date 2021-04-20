@@ -1,0 +1,43 @@
+
+.footerongo {
+
+    .card {
+        background: lightgrey;
+        text-align: center;
+        height: 180px
+    }
+
+    .botonaco {
+        border-radius: 2em;
+        padding: 8px 30px;
+        background: transparent;
+        color: pink;
+        border: 2px solid pink;
+        font-weight: 600;
+    }
+
+    form {
+        input {
+            padding: 26px 10px;
+        }
+    }
+
+    // SPANS
+    .error {
+        color: red;
+        font-size: 1.1rem;
+        // text-decoration-line: underline;
+        margin-top: 3px;
+    }
+    .success {
+        color: GREEN;
+        font-size: 1.1rem;
+        margin-top: 3px;
+    }
+
+    @media(max-width: 700px) {
+        .card-body {
+            padding: 2.25rem;
+        }
+    }
+}

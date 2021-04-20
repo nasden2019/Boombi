@@ -1,0 +1,336 @@
+.navbar {
+  background: #1D0E23;
+}
+
+.navbar .navbar-brand {
+  color: yellow !important;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar p {
+  color: white !important;
+}
+
+.navbar .x {
+  background: white;
+}
+
+@media (max-width: 700px) {
+  .navbar hr {
+    border: 1px solid yellow;
+    margin-top: 10px;
+  }
+}
+
+.navbar .displayFullWidthItems {
+  position: static !important;
+}
+
+.navbar .drops {
+  margin-top: 0px !important;
+  width: 100% !important;
+}
+
+.navbar .dropsLink {
+  padding: 30px 120px;
+}
+
+@media (max-width: 700px) {
+  .navbar .dropsLink {
+    padding: 30px 90px !important;
+  }
+}
+
+.pipi {
+  padding: 40px 0 !important;
+  background: darkviolet !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pipi a {
+  font-size: 1.7rem !important;
+}
+
+.jefacio {
+  padding: 6px 0 !important;
+  background: #a657be !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.jefacio a {
+  font-size: 0.9rem;
+  color: black !important;
+}
+
+.goog-logo-link {
+  display: none;
+}
+
+.goog-te-combo {
+  background: #1D0E23;
+  padding: 3px 0;
+  border: 0 solid #1D0E23;
+  font-size: 1rem !important;
+  margin-top: 7px !important;
+  color: white;
+}
+
+.goog-te-gadget {
+  color: #1D0E23 !important;
+  font-size: 0 !important;
+}
+
+.main-violet {
+  background: #1D0E23;
+}
+
+.main-violet h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.7rem !important;
+  text-transform: capitalize;
+}
+
+.main-violet .yellow {
+  color: yellow;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.main-violet p {
+  color: white;
+}
+
+.main-violet .apply {
+  color: #1D0E23;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 15px 70px;
+  border-radius: 4em;
+}
+
+.main-violet .grids {
+  color: white;
+  padding-bottom: 85px;
+}
+
+.main-violet img {
+  width: 200px;
+  height: 35px;
+}
+
+.videoD {
+  position: relative;
+  width: 100%;
+  height: 90vh !important;
+}
+
+.videoD #videin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.videoD .videoText {
+  position: absolute;
+  top: 28%;
+  left: 25%;
+}
+
+.videoD h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 3.7rem !important;
+  text-transform: capitalize;
+}
+
+.videoD .yellow {
+  color: yellow;
+  font-weight: 600;
+  font-size: 3.7rem;
+}
+
+.videoD p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.videoD .apply {
+  color: #1D0E23;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 20px 110px;
+  border-radius: 4em;
+}
+
+.videoD img {
+  width: 120px;
+  height: 45px;
+}
+
+.second-section {
+  background: #1D0E23;
+}
+
+.second-section h2 {
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+
+.second-section h6 {
+  color: yellow;
+}
+
+@media (min-width: 700px) {
+  .second-section {
+    padding: 110px 0;
+  }
+  .second-section .bike {
+    max-width: 93%;
+  }
+  .second-section h2 {
+    font-weight: 600;
+    font-size: 2.9rem;
+  }
+  .second-section h5 {
+    font-size: 1.5rem;
+  }
+  .second-section h6 {
+    font-size: 1.5rem;
+  }
+}
+
+.effectsCards {
+  background: white;
+  padding: 100px 0;
+  margin-bottom: 40px !important;
+}
+
+.effectsCards hr {
+  border: 1px solid yellow;
+}
+
+.effectsCards .alturaCards {
+  max-height: 520px;
+}
+
+.effectsCards .tarjetas, .effectsCards .tarjetas2, .effectsCards .tarjetas3 {
+  background: #1D0E23 !important;
+  padding: 50px 0 0 28px;
+  height: 450px;
+}
+
+.effectsCards .tarjetas h5, .effectsCards .tarjetas2 h5, .effectsCards .tarjetas3 h5 {
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: yellow;
+}
+
+.effectsCards .tarjetas h6, .effectsCards .tarjetas2 h6, .effectsCards .tarjetas3 h6 {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.effectsCards .tarjetas p, .effectsCards .tarjetas2 p, .effectsCards .tarjetas3 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.3rem;
+}
+
+.effectsCards .tarjetas span, .effectsCards .tarjetas2 span, .effectsCards .tarjetas3 span {
+  color: yellow;
+}
+
+.effectsCards .tarjetaTexto {
+  padding: 30px 0 30px 40px;
+}
+
+.effectsCards .tarjetaTexto h2 {
+  font-weight: 700;
+  font-size: 4.9rem;
+  text-align: center;
+}
+
+.effectsCards .tarjetaTexto p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding: 0 0 0 168px;
+  margin-top: 35px;
+}
+
+.effectsCards .tarjetaTexto h6 {
+  padding: 0 0 0 165px;
+  margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+  .effectsCardsMobile {
+    background: white;
+    padding: 10px 15px;
+    margin-bottom: 40px !important;
+  }
+  .effectsCardsMobile .effectTitle {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  .effectsCardsMobile .tarjetasMobile {
+    background: #1D0E23;
+    padding: 10px 40px;
+    margin: 0 12px 3px 12px !important;
+  }
+  .effectsCardsMobile .tarjetasMobile span {
+    color: yellow;
+  }
+  .effectsCardsMobile hr {
+    border: 1px solid yellow;
+  }
+}
+
+.footerongo .card {
+  background: lightgrey;
+  text-align: center;
+  height: 180px;
+}
+
+.footerongo .botonaco {
+  border-radius: 2em;
+  padding: 8px 30px;
+  background: transparent;
+  color: pink;
+  border: 2px solid pink;
+  font-weight: 600;
+}
+
+.footerongo form input {
+  padding: 26px 10px;
+}
+
+.footerongo .error {
+  color: red;
+  font-size: 1.1rem;
+  margin-top: 3px;
+}
+
+.footerongo .success {
+  color: GREEN;
+  font-size: 1.1rem;
+  margin-top: 3px;
+}
+
+@media (max-width: 700px) {
+  .footerongo .card-body {
+    padding: 2.25rem;
+  }
+}

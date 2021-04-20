@@ -1,0 +1,96 @@
+.navbar {
+    background: #1D0E23;
+    
+
+    
+
+    .navbar-brand {
+        color: yellow!important;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    a {
+        color: white;
+    }
+
+    p {
+        color: white!important;
+    }
+
+    .x {
+        background: white;
+    }
+
+    @media(max-width: 700px) {
+        hr {
+            border: 1px solid yellow;
+            margin-top: 10px;
+        }
+    }
+    
+
+    // NAV MENU DISPLAY a links
+    .displayFullWidthItems {
+        position: static!important
+    }
+
+    .drops {
+        // box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+			margin-top: 0px !important;
+			width: 100% !important;
+    }
+    
+    .dropsLink {
+       padding: 30px 120px
+    }
+    @media(max-width:700px) {
+        .dropsLink {
+            padding: 30px 90px!important; 
+        }
+    }
+   
+    
+}
+
+// CLASSES TO CHANGE NAVBAR ON SCROLL ON DESKTOP
+.pipi {
+    padding: 40px 0!important;
+    background: darkviolet!important;
+    // display: hidden!important;
+    transition: 0.5s;
+
+    a {
+        font-size: 1.7rem!important;
+    }
+}
+
+.jefacio {
+    padding: 6px 0!important;
+    background: rgb(166, 87, 190)!important;
+    // display: hidden!important;
+    transition: 0.5s;
+
+    a {
+        font-size: 0.9rem;
+        color: black!important;
+    }
+}
+
+// change language button
+.goog-logo-link {
+    display: none; // borramos 'Google translator'
+}
+.goog-te-combo { // el boton del dropdown
+    background: $violet;
+    padding: 3px 0;
+    border: 0 solid $violet;
+    font-size: 1rem!important;
+    margin-top:7px!important;
+    color: white;
+}
+.goog-te-gadget { // asi borramos el 'powered by'
+   color: $violet!important;
+   font-size: 0!important;
+}
+
